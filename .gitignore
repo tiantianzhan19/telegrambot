@@ -1,22 +1,10 @@
-# 环境变量文件
 .env
 
-# 配置模板（如果保留）
-config.py
-
-# Python 生成文件
 __pycache__/
 *.pyc
 
-# 本地数据库
 *.db
 
-# 本地文档
 procrastination_conversations.xlsx
 使用指南.docx
 使用指南.pdf
-
-# 操作系统和编辑器文件（可选）
-.DS_Store
-.vscode/
-.idea/

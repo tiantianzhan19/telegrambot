@@ -6,5 +6,5 @@ bot for ap
 
 ```bash
 git clone https://github.com/tiantianzhan19/telegrambot.git
-cd telegram
+cd telegrambot
 pip install -r requirements.txt
