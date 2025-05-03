@@ -3,7 +3,7 @@
 import openai
 from config import OPENAI_API_KEY, DEFAULT_MODEL, DEFAULT_TEMPERATURE
 
-# 初始化OpenAI客户端
+# 初始化OpenAI
 client = openai.OpenAI(api_key=OPENAI_API_KEY)
 
 def get_ai_response(messages, model=DEFAULT_MODEL, temperature=DEFAULT_TEMPERATURE):
@@ -13,7 +13,7 @@ def get_ai_response(messages, model=DEFAULT_MODEL, temperature=DEFAULT_TEMPERATU
     Args:
         messages: 消息列表
         model: 使用的模型名称
-        temperature: 温度参数(创造性)
+        temperature: 温度参数
         
     Returns:
         AI生成的回复文本
